@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
       temp3 = ""
       temp3 = v2.join(", ")
-      puts "  #{temp}: #{temp2}"
+      puts "  #{temp2}: #{temp23}"
     end
   end
 end
