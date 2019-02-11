@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
       if temp2.include? "_"
         temp2 = temp2.split('_')
         temp2.map! {|i| i.capitalize!}
-        temp2 = temp2.join(", ")
+        temp2 = temp2.join(" ")
       else
         temp2.capitalize!
       end
