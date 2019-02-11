@@ -69,10 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
         temp2 = temp2.join(", ")
       end
       temp3 = ""
-      temp3 = v2.to_s
-      temp2.split if temp2.include? "_"
-      temp2.map! {|i| i.capitalize!}
-      temp2 = temp2.join(", ")
+      temp3 = v2.join(", ")
       puts "  #{temp}: #{temp2}"
     end
   end
