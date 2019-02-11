@@ -63,7 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
     v.each do |k2, v2|
       temp2 = ""
       k2.to_s
-      k2.split if k2.include?("_") == true
+      k2.split if k2.include? "_"
       
       temp.capitalize!
       temp2 = v2.join(", ")
