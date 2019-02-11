@@ -85,7 +85,10 @@ def all_holidays_with_bbq(holiday_hash)
     v.each do |k2, v2|
       v2.each do |i|
         if i == "BBQ"
-          temp << k2 
+          temp << k2
+        end
+      end
+    end
 end
 
 
